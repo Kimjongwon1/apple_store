@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 class ProviderCart with ChangeNotifier {
   /// 카트에 담긴 상품 목록
+  /// 
   List<Product> cartProductList = [];
 
   /// 상품 클릭
